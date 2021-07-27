@@ -1,0 +1,10 @@
+#resumen_pedido{
+  box-sizing: border-box;
+  justify-content: left;
+}
+
+#subtittulos_carritoresumen{
+	justify-content: center;
+	display: inline-flex;
+
+}

@@ -1,0 +1,7 @@
+section .gestion_productos{
+    display: inline;
+  /* padding-right: 20px; */
+    background-image: url(../../assets/img/wallregistro1.svg);    
+    background-repeat: no-repeat;
+    background-position: 0 -.2em;
+}
