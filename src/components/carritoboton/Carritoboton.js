@@ -11,7 +11,7 @@ function Carritoboton(){
                 <button className=" btn btn-cafe"><img src={Actualizar2} width="30px"/>GUARDAR PEDIDO</button>
 			</div>
 
-<br></br>
+				<br/>
 
 		</div>
 

@@ -20,39 +20,47 @@ function Carritoresumen(){
 					<div>
 						<button><img src={Botonmas} width="64px"/></button> <button><img src={Botoneliminar} width="64px"/></button> 
 					</div>
-<br></br>					
+							<br/>
+
 					<div>
 						<button><img src={Botonmas} width="64px"/></button> <button><img src={Botoneliminar} width="64px"/></button> 
 					</div>
-<br></br>
+							<br/>
+
 					<div>
 						<button><img src={Botonmas} width="64px"/></button> <button><img src={Botoneliminar} width="64px"/></button> 
 					</div>
-<br></br>
+							<br/>
+
 					<div>
 						<button><img src={Botonmas} width="64px"/></button> <button><img src={Botoneliminar} width="64px"/></button> 
 					</div>
-<br></br>
+							<br/>
+
 					<div>
 						<button><img src={Botonmas} width="64px"/></button> <button><img src={Botoneliminar} width="64px"/></button> 
 					</div>
-<br></br>
+							<br/>
+
 					<div>
 						<button><img src={Botonmas} width="64px"/></button> <button><img src={Botoneliminar} width="64px"/></button> 
 					</div>
-<br></br>
+							<br/>
+
 					<div>
 						<button><img src={Botonmas} width="64px"/></button> <button><img src={Botoneliminar} width="64px"/></button> 
 					</div>
-<br></br>
+							<br/>
+
 					<div>
 						<button><img src={Botonmas} width="64px"/></button> <button><img src={Botoneliminar} width="64px"/></button> 
 					</div>
-<br></br>
+							<br/>
+
 					<div>
 						<button><img src={Botonmas} width="64px"/></button> <button><img src={Botoneliminar} width="64px"/></button> 
 					</div>
-<br></br>
+							<br/>
 			</article>
 		</section>
 

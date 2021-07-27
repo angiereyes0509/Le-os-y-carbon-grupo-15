@@ -4,7 +4,8 @@ function Carritoboton2(){
     return(
     	<div>
 
-<br></br>
+			<br/>
+			
 			<div className="boton_terminar" >
                 <button className=" btn btn-naranja">TERMINAR PEDIDO</button>
 			</div>

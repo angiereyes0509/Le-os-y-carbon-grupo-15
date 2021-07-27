@@ -17,8 +17,8 @@ function Carritoheader() {
 	  				<div className="titulo_header_carrito">
 	  		 			<h1> MENÚ </h1>
 					</div>	
-							
-	  		</div>
+			</div>
+			
 	  	</article>
 	 </header>
   );

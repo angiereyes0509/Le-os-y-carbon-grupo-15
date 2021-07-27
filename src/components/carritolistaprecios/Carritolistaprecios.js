@@ -16,29 +16,33 @@ function Carritolistaprecios(){
 							<h4>CHICHARRONES <button><img src={Carro} width="64px"/></button></h4>
 							<h3> PRECIO:</h3> <p> 17.900 </p> 
 						</div>
-<br></br>
+								<br/>
+
 						<div className="item_lista">
 							<h4>CHORIZOS LEÑOS <button><img src={Carro} width="64px"/></button></h4>
 							<h3> PRECIO:</h3> <p>16.900 </p> 
 						</div>
-<br></br>
+								<br/>
+
 						<div className="item_lista">
 							<h4>EMPANADAS <button><img src={Carro} width="64px"/></button></h4> <h3> PRECIO: 13.900 </h3>
 						</div>
-<br></br>
+								<br/>
+
 						<div className="item_lista">
 							<h4>MONEDITAS DE PLATANO <button><img src={Carro} width="64px"/></button></h4> <h3> PRECIO: 5.200 </h3>
 						</div>
-<br></br>
+								<br/>
 		
 						<div className="item_lista">
 							<h4>MORCILLA LEÑOS <button><img src={Carro} width="64px"/></button></h4> <h3> PRECIO: 10.900 </h3>
 						</div>
-<br></br>				
+								<br/>
+
 						<div className="item_lista">
 							<h4>PATACONES CON HOGAO <button><img src={Carro} width="64px"/></button></h4> <h3> PRECIO: 6.900 </h3>
 						</div>
-<br></br>
+								<br/>
 
 
 					</article>

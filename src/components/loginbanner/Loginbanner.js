@@ -9,7 +9,7 @@ function Loginbanner(){
                 <button className=" btn btn-cafe"><img src={Bannerlogin} width="30px"/>GUARDAR PEDIDO</button>
 			</div>
 
-<br></br>
+				<br/>
 
 		</div>
 
