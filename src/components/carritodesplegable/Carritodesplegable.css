@@ -3,3 +3,46 @@
     background-color: #F16414;
     border-color: #6c757d;
 }
+
+.btn-check:active+.btn-secondary,
+.btn-check:checked+.btn-secondary,
+.btn-secondary.active, 
+.btn-secondary:active, 
+.show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #73574B;
+    border-color: #73574B;
+}
+
+.btn-check:focus+
+.btn-secondary, 
+.btn-secondary:focus
+	               {
+    color: #fff;
+    background-color: #73574B;
+    border-color: #73574B;
+    box-shadow: 0 0 0 0.25rem rgb(130 138 145 / 50%);
+}
+
+.btn-secondary:hover{
+    color: #fff;
+    background-color: #73574B;
+    border-color: #73574B;
+}
+.btn, 
+.carritodesplegable {
+
+
+    }  
+.dropdown, 
+.dropend, 
+.dropstart, 
+.dropup{
+        justify-content: right;
+        float: right;
+        margin: 0px 60px 5px 0px;
+        display: flex;
+        padding-bottom: 5px;
+        
+
+}

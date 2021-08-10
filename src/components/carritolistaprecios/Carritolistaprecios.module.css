@@ -1,0 +1,54 @@
+body {
+  background-image: url(../../assets/img/wallpapereditada.png);
+}
+.listadoPrecios {
+  box-sizing: border-box;
+  width: 95%;
+}
+
+.lista {
+  justify-content: left;
+}
+
+.itemLista {
+  width: 100%;
+  background-color: #73574b;
+  height: 70px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-columns: 50% 10% 20% 15%;
+}
+
+.itemLista h4 {
+  justify-content: space-between;
+  color: #f4e9d7;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 40px;
+  height: auto;
+  width: 300px;
+}
+
+.itemLista,
+h3 {
+  justify-content: space-between;
+  color: #f16414;
+  margin-top: 20px;
+  height: auto;
+}
+
+.itemLista,
+p {
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 20px;
+  height: auto;
+  font-size: 24px;
+}
+button,
+.botonCarrito {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}

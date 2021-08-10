@@ -1,0 +1,45 @@
+.contenidoFormulario {
+  display: flex;
+    gap: 1rem;
+    margin: auto;
+    text-align: left;
+    background-color: #73574B;
+    width: 100%;
+    height: 110px;
+
+  }
+  
+  .casillasFormu label {
+    font-weight: bold;
+    font-family: 'Roboto';
+    color:#F16414;
+    border: black;
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+
+}
+  
+  .casillasFormu input {
+    font-family: 'Roboto';
+    padding: 0.5rem;
+    border-radius: 6px;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .BotonFormuBuscar{
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Roboto';
+    border-radius: 5px;
+    background-color:#F16414;
+    width: auto;
+    color:black;
+  
+  }
+
+    
+    
+    

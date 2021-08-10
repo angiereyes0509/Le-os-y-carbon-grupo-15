@@ -1,56 +1,56 @@
-import './Carritolistaprecios.css';
-import Carro from '../../assets/img/carro.png';
-import Actualizar2 from '../../assets/img/actualizar2.png';
-import Actualizar2negativo from '../../assets/img/actualizar2negativo.png';
+//import './Carritolistaprecios.css';
+import Carro from "../../assets/img/carro.png";
+import Actualizar2 from "../../assets/img/actualizar2.png";
+import Actualizar2negativo from "../../assets/img/actualizar2negativo.png";
+import myStyles from "./Carritolistaprecios.module.css";
+import Carritoresumen from "../carritoresumen/Carritoresumen";
+import menu from "./Categorias.json";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink,
+} from "react-router-dom";
+function Lista(props) {
+  return (
+    <div>
+      <div className={myStyles.itemLista}>
+        <div>
+          <h4> {props.platoSeleccion.nameProduct} </h4>
+        </div>
+        <div>
+          <button className={myStyles.botonCarrito}>
+            <img src={Carro} width="64px" />
+          </button>
+        </div>
+        <div>
+          <h3> PRECIO:</h3>
+        </div>
+        <div>
+          <p> {props.platoSeleccion.price} </p>
+        </div>
+      </div>
+    </div>
+  );
+}
 
-
-
-function Carritolistaprecios(){
-    return(
-		<section className="listado_precios">
-			<div id="lista">
-				<div className="row">
-					<article className="col-lg-6"> // col-3 md-6
-
-						<div className="item_lista">
-							<h4>CHICHARRONES <button><img src={Carro} width="64px"/></button></h4>
-							<h3> PRECIO:</h3> <p> 17.900 </p> 
-						</div>
-								<br/>
-
-						<div className="item_lista">
-							<h4>CHORIZOS LEÑOS <button><img src={Carro} width="64px"/></button></h4>
-							<h3> PRECIO:</h3> <p>16.900 </p> 
-						</div>
-								<br/>
-
-						<div className="item_lista">
-							<h4>EMPANADAS <button><img src={Carro} width="64px"/></button></h4> <h3> PRECIO: 13.900 </h3>
-						</div>
-								<br/>
-
-						<div className="item_lista">
-							<h4>MONEDITAS DE PLATANO <button><img src={Carro} width="64px"/></button></h4> <h3> PRECIO: 5.200 </h3>
-						</div>
-								<br/>
-		
-						<div className="item_lista">
-							<h4>MORCILLA LEÑOS <button><img src={Carro} width="64px"/></button></h4> <h3> PRECIO: 10.900 </h3>
-						</div>
-								<br/>
-
-						<div className="item_lista">
-							<h4>PATACONES CON HOGAO <button><img src={Carro} width="64px"/></button></h4> <h3> PRECIO: 6.900 </h3>
-						</div>
-								<br/>
-
-
-					</article>
-
-				</div>
-			</div>
-		</section>
-
-    );
+function Carritolistaprecios() {
+  const listDePlatosSelect = menu.filter(
+    (data) => data.categoria == "entradas"
+  );
+  return (
+    <section className={myStyles["listadoPrecios"]}>
+      <div className={myStyles.lista}>
+        <article className="lg-6">
+          {listDePlatosSelect[0].platos.map((plato) => (
+            <Lista platoSeleccion={plato} key={plato.id} />
+          ))}
+        </article>
+      </div>
+    </section>
+  );
 }
 export default Carritolistaprecios;
+
+//<Route path="/carrito" component={Carrito}></Route>		</Switch>

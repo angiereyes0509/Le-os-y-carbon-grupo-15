@@ -1,0 +1,92 @@
+[
+  {
+    "categoria": "entradas",
+    "platos": [
+      {
+        "id": 1,
+        "nameProduct": "CHICHARRONES",
+        "price": "16.900"
+      },
+
+      {
+        "id": 2,
+        "nameProduct": "CHORIZOS LEÑOS",
+        "price": "13.900"
+      },
+
+      {
+        "id": 3,
+        "nameProduct": "EMPANADAS",
+        "price": "5.200"
+      },
+
+      {
+        "id": 4,
+        "nameProduct": "MOENDITAS DE PLATANO",
+        "price": "10.900"
+      },
+
+      {
+        "id": 5,
+        "nameProduct": "PATACONES CON HOGAO",
+        "price": "6.900"
+      },
+      {
+        "id": 14,
+        "nameProduct": "ANILLOS DE CEBOLLA",
+        "price": "7.000"
+      }
+    ]
+  },
+  {
+    "categoria": "sandwiches",
+    "platos": [
+      {
+        "id": 6,
+        "nameProduct": " DE LOMO DE RES",
+        "price": "23.900"
+      },
+
+      {
+        "id": 7,
+        "nameProduct": "LOMO DE RES COMBO",
+        "price": "29.900"
+      },
+
+      {
+        "id": 8,
+        "nameProduct": "SANDWICH CON POLLO",
+        "price": "21.900"
+      },
+
+      {
+        "id": 9,
+        "nameProduct": "SANDWICH DE MORRILLO",
+        "price": "23.900"
+      },
+
+      {
+        "id": 10,
+        "nameProduct": "CON COSTILLITAS ST.LOUIS",
+        "price": "26.900"
+      },
+      {
+        "id": 11,
+        "nameProduct": "CON CHURRASCO",
+        "price": "27.900"
+      },
+
+      {
+        "id": 12,
+        "nameProduct": "CHORIPAN",
+        "price": "14.900"
+      },
+
+      {
+        "id": 13,
+        "nameProduct": "SANDWICH PARA 3",
+        "price": "69.900"
+      }
+    ]
+  }
+]
