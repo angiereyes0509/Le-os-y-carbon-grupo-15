@@ -14,22 +14,32 @@ Necesitarás complementos como bootstrap, reactstrap, firestore, css moduls. Ent
 
 
 ### Instalación 🔧
+Sigue éstos pasos para poder ingresar como usuario a nuestro aplicativo Web.
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+1)Ingresa a nuestro Login, con usuario y contraseña.
 
-_Dí cómo será ese paso_
+2)Te llevará directamente al menú donde podrás elegir si quieres ir a gestión de producto, 
+  ó gestión de pedidos.
 
-```
-Da un ejemplo
-```
+3)Si eliges 'Gestion de pedidos', te redirigirá directamente a la vista de carrito.
 
-_Y repite_
+4)Si eliges 'Gestion de productos' te redirigirá directamente a la vista de registro.
 
-```
-hasta finalizar
-```
+### Gestión de pedidos:
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+1)En ésta vista podrás elejir la mesa a a que quieres agregar el pedido.
+
+2)Tendrás una barra de navegación donde podrás elegir la categoría del producto, allí aparecerá
+  una lista completa de los productos disponibles en la carta, oprimiendo el botón del carrito
+  podrás generar la adición del producto y aparecerá en la vista llamada 'Resumen de pedido'.
+  
+3)Podrás adicionar cuantos productos quieras y en la sección anteriormente mencionada como:
+  'Resumen de pedido', encontrarás un botón con el podrás agregar unidades del mismo producto
+   y otro botón con el que podrád eliminar el producto.
+  
+4)Tendrás un botón que te permitirá guardar el pedido, podrás entonces ir a otra mesa y hacer 
+  el mismo procedimiento sin perder los cambios de la actual mesa.
+
 
 ## Ejecutando las pruebas ⚙️
 
