@@ -10,10 +10,11 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-Necesitarás complementos como bootstrap, reactstrap, firestore, css moduls. Entre otros.
+Necesitarás complementos como bootstrap, reactstrap, firestore, css moduls, en cuanto instales el proyecto
+con un npm install será suficiente para adicionar todos los complementos integrados para nuestro proyecto.
 
 
-### Instalación 🔧
+### Navegabilidad dentro de aplicativo 🔧
 Sigue éstos pasos para poder ingresar como usuario a nuestro aplicativo Web.
 
 1)Ingresa a nuestro Login, con usuario y contraseña.
