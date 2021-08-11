@@ -59,9 +59,9 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [LucidChart](https://lucid.app/lucidspark/a6ea0564-675b-4998-96b1-f4b79d486b77/edit?viewport_loc=-6393%2C-4657%2C10458%2C5681%2C0_0&invitationId=inv_29554223-9eb6-4a4a-8e8b-43628c9107e3) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [LucidChart](https://lucid.app/lucidspark/a6ea0564-675b-4998-96b1-f4b79d486b77/edit?viewport_loc=-6393%2C-4657%2C10458%2C5681%2C0_0&invitationId=inv_29554223-9eb6-4a4a-8e8b-43628c9107e3) - El wireframe web usado.
+* [Figma](https://www.figma.com/file/9E8IYLFCgfYxpbD2jBZ39N/Untitled?node-id=0%3A1) - Herramienta de prototipado de lata fidelidad.
+* [Firebase](https://console.firebase.google.com/project/lenosycarbon-3e760/overview) - Usado para implementar CRUD dentro del proyecto.
 
 ## Contribuyendo 🖇️
 
