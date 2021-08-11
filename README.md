@@ -57,7 +57,7 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+Las siguientes son las herramientas que usamos para proyectar y definir nuestro proyecto en: Diagrama de flujo, prototipado, y CRUD.
 
 * [LucidChart](https://lucid.app/lucidspark/a6ea0564-675b-4998-96b1-f4b79d486b77/edit?viewport_loc=-6393%2C-4657%2C10458%2C5681%2C0_0&invitationId=inv_29554223-9eb6-4a4a-8e8b-43628c9107e3) - El wireframe web usado.
 * [Figma](https://www.figma.com/file/9E8IYLFCgfYxpbD2jBZ39N/Untitled?node-id=0%3A1) - Herramienta de prototipado de lata fidelidad.
